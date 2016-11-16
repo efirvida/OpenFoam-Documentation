@@ -1,0 +1,4 @@
+# slicedVolFieldsFwd 
+## InClass
+Foam::slicedVolFields
+

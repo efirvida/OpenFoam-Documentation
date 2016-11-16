@@ -1,0 +1,4 @@
+# coupledFvsPatchFieldsFwd 
+## InClass
+Foam::coupledFvsPatchField
+

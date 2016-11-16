@@ -1,0 +1,4 @@
+# slicedFvsPatchFieldsFwd 
+## InClass
+Foam::slicedFvsPatchField
+

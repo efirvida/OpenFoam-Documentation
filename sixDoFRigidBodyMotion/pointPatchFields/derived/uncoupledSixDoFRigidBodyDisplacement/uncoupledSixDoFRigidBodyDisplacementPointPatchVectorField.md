@@ -1,0 +1,10 @@
+# uncoupledSixDoFRigidBodyDisplacementPointPatchVectorField 
+## Class
+Foam::uncoupledSixDoFRigidBodyDisplacementPointPatchVectorField
+
+## Description
+Foam::uncoupledSixDoFRigidBodyDisplacementPointPatchVectorField
+
+## SourceFiles
+uncoupledSixDoFRigidBodyDisplacementPointPatchVectorField.C
+
