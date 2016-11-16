@@ -88,11 +88,12 @@ with open(DOC_FILES_DIR + 'README.md', 'w') as f:
     for m_file in MD_FILE_LIST:
         levels = m_file.replace(DOC_FILES_DIR, '').count(os.sep)
         if levels < 3:
-            text.append( ' * ' + '#' * levels + ' [%s](./%s)\n' % (
-                                    m_file.split(os.sep)[-1].replace('.md', ''),
-                                    m_file.replace(DOC_FILES_DIR, '').replace(os.sep,'/')))
+            text.append(' * ' + '#' * levels + ' [%s](./%s)\n' %
+                        (m_file.split(os.sep)[-1].replace('.md', ''),
+                         m_file.replace(DOC_FILES_DIR, '').replace(os.sep, '/')))
+
         else:
-            text.append('%s[%s](./%s)\n' % (m_file.count(os.sep)*' ' + '- ',
+            text.append('%s[%s](./%s)\n' % (' ' * levels + '- ',
                         m_file.split(os.sep)[-1].replace('.md', ''),
                         m_file.replace(DOC_FILES_DIR, '').replace(os.sep, '/')))
     text[0] = "# Index\n"
